@@ -25,5 +25,5 @@ const updatedContent = readFileSync(filePath, 'utf-8');
 console.log('Updated file content:', updatedContent); // Outputs: Hello, World!\nAppended text.
 
 // Delete the file
-// unlinkSync(filePath);?
-// console.log('File deleted.'); // Confirms that the file has been deleted
+unlinkSync(filePath);
+console.log('File deleted.'); // Confirms that the file has been deleted
